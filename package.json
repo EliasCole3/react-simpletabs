@@ -25,7 +25,6 @@
     "tab"
   ],
   "scripts": {
-    "pub": "npm publish && bower register react-simpletabs git@github.com:pedronauck/react-simpletabs.git",
     "bundle": "gulp webpack && gulp webpack --production",
     "start": "gulp",
     "test": "jest"
@@ -49,7 +48,8 @@
     "react": "0.12.x - 1.x || ^0.14.0-rc1"
   },
   "dependencies": {
-    "classnames": "^1.2.0"
+    "classnames": "^1.2.0",
+    "create-react-class": "^15.5.3"
   },
   "devDependencies": {
     "browser-sync": "^1.5.2",
@@ -60,6 +60,7 @@
     "jest-cli": "^0.1.18",
     "jsx-loader": "^0.12.2",
     "lodash": "^2.4.1",
+    "prop-types": "^15.5.10",
     "react": "0.12.x - 1.x",
     "react-tools": "^0.12.2",
     "style-loader": "^0.8.1",
